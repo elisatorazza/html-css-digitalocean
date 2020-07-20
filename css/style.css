@@ -1,3 +1,12 @@
+/*MIX*/
+.p_top_50 {
+  padding-top: 50px;
+}
+.p_bottom_50 {
+  padding-bottom: 50px;
+}
+/* /MIX*/
+
 /* HEADER */
 .header_top {
   height: 80px;
@@ -38,12 +47,10 @@
   background-color: lightblue;
 }
 .title {
-  height: 350px;
   background-color: pink;
 }
 .form {
-  height: 350px;
-  background-color: lightgreen;
+  background-color: #fff;
 }
 /* /HEADER */
 
