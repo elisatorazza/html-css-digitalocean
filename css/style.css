@@ -156,3 +156,35 @@
   height: 300px;
 }
 /* /love*/
+/* /MAIN*/
+
+/* FOOTER*/
+footer {
+  background-color: #010E28;
+}
+.copy {
+  background-color: orange;
+  height: 90px;
+}
+.big_menu {
+  background-color: pink;
+  height: 120px;
+}
+.company {
+  background-color: lightblue;
+  height:100px;
+}
+.products {
+  background-color: lightgreen;
+  height:100px;
+}
+.community {
+  background-color: white;
+  height:100px;
+}
+.support {
+  background-color: purple;
+  height:100px;
+}
+
+/* /FOOTER*/
