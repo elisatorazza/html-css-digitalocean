@@ -1,0 +1,8 @@
+.sign {
+  color: #006AFF;
+  border-color: #006AFF;
+}
+.sign:hover {
+  background-color: #006AFF;
+  color: #fff;
+}

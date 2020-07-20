@@ -1,4 +1,8 @@
 /*MIX*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
 .p_top_50 {
   padding-top: 50px;
 }
@@ -23,40 +27,48 @@
 .m_bottom_20 {
   margin-bottom:20px;
 }
-/* /MIX*/
-
-/* HEADER */
-.header_top {
-  height: 80px;
-  width:100%;
-  background-color: red;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-.logo {
-  height: 80px;
-  background-color:blue;
-}
-.main_menu {
-  height: 80px;
-  background-color: green;
-}
-.menu_sign {
-  height: 80px;
-  background-color: yellow;
-}
-.ham_bars {
-  height: 80px;
-  background-color: orange;
-}
 .line_height {
   line-height: 80px;
 }
 .relative {
   position: relative;
 }
+/* /MIX*/
+
+/* HEADER */
+.header_top {
+  height: 80px;
+  width:100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.logo {
+  max-width: 70%;
+  height: auto;
+}
+.header_top a {
+  color: #031b4f;
+}
+.header_top a:hover {
+  color: #006AFF;
+  text-decoration: none;
+}
+#sign {
+  color: #006AFF;
+  border-color: #006AFF;
+  font-size: 16px;
+}
+#sign:hover {
+  background-color: #006AFF;
+  color: #fff;
+}
+.fa-bars {
+  color: #006AFF;
+}
+
+
 /* jumbotron */
 .jumbo {
   margin-top: 80px;
