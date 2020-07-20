@@ -102,3 +102,28 @@
 .availability {
   background-color: pink;
 }
+/* /deploy*/
+
+/* developers*/
+.developers {
+  height: 300px;
+  background-color: yellow;
+}
+.developer {
+  position:relative;
+}
+.image {
+  height: 80px;
+  background-color: blue;
+  width:50%;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+}
+.image::before {
+  font-family: "Font Awesome 5 Free";
+  content:"\f104";
+  display: inline-block;
+  vertical-align: middle;
+}
+/* /developers*/
