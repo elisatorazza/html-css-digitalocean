@@ -1,8 +1,21 @@
-.sign {
-  color: #006AFF;
+.form-control:focus {
   border-color: #006AFF;
+  box-shadow: none;
 }
-.sign:hover {
+.create {
+  width: 100%;
   background-color: #006AFF;
   color: #fff;
+}
+.create:hover {
+  background-color: #006AFF;
+  color: #fff;
+}
+.sign {
+  width: 100%;
+  color: #626262;
+}
+.sign:hover {
+  background-color: #fff;
+  color: #626262
 }
