@@ -5,6 +5,24 @@
 .p_bottom_50 {
   padding-bottom: 50px;
 }
+.p_top_30 {
+  padding-top: 30px;
+}
+.p_bottom_30 {
+  padding-bottom: 30px;
+}
+.p_top_20 {
+  padding-top: 20px;
+}
+.p_bottom_20 {
+  padding-bottom: 20px;
+}
+.m_top_20 {
+  margin-top:20px;
+}
+.m_bottom_20 {
+  margin-bottom:20px;
+}
 /* /MIX*/
 
 /* HEADER */
@@ -55,3 +73,9 @@
 /* /HEADER */
 
 /* MAIN */
+/*customer*/
+.customer {
+  width:100%;
+  height: 150px;
+  background-color: #F3F5F9;
+}
