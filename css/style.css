@@ -127,3 +127,20 @@
   vertical-align: middle;
 }
 /* /developers*/
+/* features*/
+.features {
+  background-color: green;
+}
+.pricing {
+  height:80px;
+  background-color: yellow
+}
+.service {
+  height:80px;
+  background-color: red;
+}
+.platform {
+  height:80px;
+  background-color: grey;
+}
+/* /features*/
