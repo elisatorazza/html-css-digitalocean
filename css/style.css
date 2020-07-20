@@ -1,0 +1,21 @@
+.header_top {
+  height: 80px;
+  width:100%;
+  background-color: red;
+}
+.logo {
+  height: 80px;
+  background-color:blue;
+}
+.main_menu {
+  height: 80px;
+  background-color: green;
+}
+.menu_sign {
+  height: 80px;
+  background-color: yellow;
+}
+.ham_bars {
+  height: 80px;
+  background-color: orange;
+}
