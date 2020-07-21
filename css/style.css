@@ -9,11 +9,17 @@ body {
 .font_bold {
   font-weight:bold;
 }
+.font_weight {
+  font-weight: 500;
+}
 .font_white {
   color:#fff;
 }
 .font_grey {
-  color: #757575;
+  color:#848FA7;
+  }
+.font_darkblue {
+  color:#031b4e;
 }
 .font_lgblue {
   color:#BBCDFF;
@@ -104,6 +110,9 @@ h3 {
 .title {
   opacity: 1;
 }
+.font_form {
+  color: #757575;
+}
 .form {
   background-color: #fff;
   padding-left:20px;
@@ -168,27 +177,22 @@ small {
 }
 /* /customers*/
 /*deploy*/
-.deploy {
-  background-color: orange;
+.deploy p {
+  color: #5C6A88;
+  font-weight: 500;
 }
-.process {
-  background-color: grey;
+.deploy ul {
+  line-height: 40px;
+  border-left: 1px solid #848FA7;
+  font-size: 20px;
+  padding-left: 7px;
 }
-.resume {
-  background-color: blue;
+.wrapper_small {
+  max-width:70%;
+  margin:auto;
 }
-.cluster {
-  background-color: beige;
-}
-.comput {
-  background-color: brown;
-}
-.apps {
-  background-color: yellow;
-}
-.availability {
-  background-color: pink;
-}
+
+
 /* /deploy*/
 
 /* developers*/
