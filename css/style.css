@@ -9,7 +9,6 @@ body {
 .font_bold {
   font-weight:bold;
 }
-
 .font_weight {
   font-weight: 500;
 }
@@ -18,7 +17,7 @@ body {
 }
 .font_grey {
   color:#848FA7;
-  }
+}
 .font_darkblue {
   color:#031b4e;
 }
@@ -161,6 +160,9 @@ small {
   .jumbo {
     padding: 30px;
   }
+  .circle p {
+    margin-bottom: 50px;
+  }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
   .business img {
@@ -181,7 +183,7 @@ small {
 }
 /* /customers*/
 /*deploy*/
-.deploy p {
+.configuration {
   color: #5C6A88;
   font-weight: 500;
 }
@@ -204,30 +206,47 @@ small {
     margin-top: 15px;
   }
 }
-
 /* /deploy*/
 
 /* developers*/
 .developers {
-  height: 300px;
-  background-color: yellow;
+  background-color: #F3F5F9;
 }
-.developer {
-  position:relative;
+.demo {
+  max-width: 60%;
+  margin: auto;
 }
-.image {
-  height: 80px;
-  background-color: blue;
-  width:50%;
-  position:absolute;
-  left:50%;
-  transform:translateX(-50%);
-}
-.image::before {
+.image::before, .image::after{
   font-family: "Font Awesome 5 Free";
   content:"\f104";
+  font-size: 50px;
+  font-weight:900;
+  color: #848FA7;
   display: inline-block;
   vertical-align: middle;
+  margin: 10px;
+}
+.image::after {
+  font-family: "Font Awesome 5 Free";
+  content:"\f105";
+  color: #000;
+}
+.image::before:hover {
+  color: #000;
+}
+.circle li{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #006AFF;
+  border-radius: 50%;
+}
+.circle li:first-child {
+  background-color: #006AFF;
+}
+@media screen and (max-width:768px) {
+  .image::before, .image::after {
+    display: none;
+  }
 }
 /* /developers*/
 /* features*/
