@@ -262,7 +262,14 @@ small {
 /* /features*/
 /* world */
 .world {
-  background-color: red;
+  background-image: linear-gradient(#0048C5, #001E99);
+}
+.world li {
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+}
+.world li span {
+  font-size: 13px;
 }
 /* /world */
 
