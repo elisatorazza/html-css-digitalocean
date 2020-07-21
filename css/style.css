@@ -107,7 +107,7 @@ h3 {
 /* jumbotron */
 .jumbo {
   margin-top: 80px;
-  background-image: linear-gradient(#0048C5, #001E99);
+  background-image: url(../img/jumbotron.svg);
   padding: 20px;
 }
 .title {
@@ -247,22 +247,17 @@ small {
   .image::before, .image::after {
     display: none;
   }
+  .pricing {
+    padding-top: 15px;
+  }
 }
 /* /developers*/
 /* features*/
 .features {
-  background-color: green;
+  padding-bottom: 80px;
 }
-.pricing {
-  background-color: yellow
-}
-.service {
-  height:80px;
-  background-color: red;
-}
-.platform {
-  height:80px;
-  background-color: grey;
+.pricing img {
+  width: 50px;
 }
 /* /features*/
 /* world */
