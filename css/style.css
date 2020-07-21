@@ -9,6 +9,7 @@ body {
 .font_bold {
   font-weight:bold;
 }
+
 .font_weight {
   font-weight: 500;
 }
@@ -29,6 +30,9 @@ body {
 }
 .font_24 {
   font-size: 24px;
+}
+.font_20 {
+  font-size: 20px;
 }
 h1 {
   font-size: 58px;
@@ -191,7 +195,15 @@ small {
   max-width:70%;
   margin:auto;
 }
-
+@media screen and (max-width:768px) {
+  .wrapper_small {
+    max-width: 1170px;
+    margin: auto;
+  }
+  .cluster {
+    margin-top: 15px;
+  }
+}
 
 /* /deploy*/
 
