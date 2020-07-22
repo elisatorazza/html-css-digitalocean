@@ -19,3 +19,13 @@
   background-color: #fff;
   color: #626262
 }
+.fa-google {
+  position: absolute;
+  left: 3%;
+}
+.google {
+  text-align: center;
+}
+#google {
+  text-align: left;
+}

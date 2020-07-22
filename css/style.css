@@ -135,15 +135,22 @@ h3 {
   background-color: #006AFF;
   color: #fff;
 }
-.sign_google {
+.sign {
   width: 100%;
   color: #626262;
   margin: 10px 0;
 }
-.sign_google:hover {
+.sign:hover {
   background-color: #fff;
   color: #626262
 }
+.fa-google {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+
 .lh_form {
   line-height: 40px;
 }
