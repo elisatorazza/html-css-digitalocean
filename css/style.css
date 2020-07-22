@@ -196,21 +196,6 @@ small {
   max-width:70%;
   margin:auto;
 }
-@media screen and (max-width:768px) {
-  .wrapper_small {
-    max-width: 1170px;
-    margin: auto;
-  }
-  .cluster {
-    margin-top: 15px;
-  }
-  .business li {
-    width: 49%;
-  }
-  .rockerbox img {
-    max-width: 100%;
-  }
-}
 /* /deploy*/
 
 /* developers*/
@@ -297,7 +282,7 @@ small {
 
 /* FOOTER*/
 footer {
-  background-color: #010E28;
+  background-color: #031C4E;
 }
 .copy img{
   padding-bottom: 10px;
@@ -320,6 +305,32 @@ footer {
 .company li a{
   color: #A6ADBD
 }
+.chatbot {
+  position:fixed;
+  bottom: 30px;
+  right: 20px;
+}
+.shark {
+  border-radius: 5px;
+  vertical-align: text-top;
+}
+.notifiche {
+  color: #fff;
+  background-color: #f11111;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 5px;
+}
+.question {
+  margin-right: 30px;
+  height: 70px;
+  width: 60%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.question p {
+  padding: 10px;
+}
 /* /FOOTER*/
 
 /*RESPONSIVE*/
@@ -329,6 +340,19 @@ footer {
   }
   .pricing {
     padding-top: 15px;
+  }
+  .wrapper_small {
+    max-width: 1170px;
+    margin: auto;
+  }
+  .cluster {
+    margin-top: 15px;
+  }
+  .business li {
+    width: 49%;
+  }
+  .rockerbox img {
+    max-width: 100%;
   }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
