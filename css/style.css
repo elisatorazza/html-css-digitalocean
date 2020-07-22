@@ -315,6 +315,7 @@ small {
   background-color: #006AFF;
   color: #fff;
 }
+/* /get_started */
 
 /* /MAIN*/
 
@@ -322,29 +323,29 @@ small {
 footer {
   background-color: #010E28;
 }
-.copy {
-  background-color: orange;
-  height: 90px;
+.copy img{
+  padding-bottom: 10px;
+}
+.social a, .copy_2018 {
+  color: #7A859D;
+}
+.social i {
+  font-size: 20px;
+}
+.copy_2018 {
+  margin-bottom: 0;
+}
+.ny{
+  color: #586785;
 }
 .big_menu {
-  background-color: pink;
-  height: 120px;
+
 }
-.company {
-  background-color: lightblue;
-  height:100px;
+.company li {
+  padding: 5px 0;
 }
-.products {
-  background-color: lightgreen;
-  height:100px;
-}
-.community {
-  background-color: white;
-  height:100px;
-}
-.support {
-  background-color: purple;
-  height:100px;
+.company li a{
+  color: #A6ADBD
 }
 
 /* /FOOTER*/
