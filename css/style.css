@@ -310,6 +310,12 @@ footer {
   bottom: 30px;
   right: 20px;
 }
+.box_shark {
+  float: right;
+}
+.q_a {
+  float: right;
+}
 .shark {
   border-radius: 5px;
   vertical-align: text-top;
@@ -317,22 +323,21 @@ footer {
 .notifiche {
   color: #fff;
   background-color: #f11111;
+  border: 5px solid #fff;
   border-radius: 50%;
-  padding: 5px;
   position: absolute;
   top: -15%;
   right: -15%;
   font-size: 12px;
   width: 30px;
   height: 30px;
-  line-height: 18px;
+  line-height: 20px;
 }
 .question {
   height: 70px;
   width: 95%;
   border-radius: 5px;
   background-color: #fff;
-  float: left;
   padding: 10px;
 }
 
@@ -342,7 +347,10 @@ footer {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-left: 10px solid #fff;
-  float: left;
+  position: absolute;
+  top:50%;
+  left: 95%;
+  transform: translateY(-50%);
   margin-bottom: 20px
 }
 /* /FOOTER*/
@@ -390,4 +398,20 @@ footer {
   .circle_three {
     padding-top: 20px;
   }
+  .chatbot {
+    position: fixed;
+    bottom: 100px;
+    left: 20px;
+  }
+  .box_shark {
+    position: absolute;
+    top:0;
+    left:0;
+  }
+  .q_a {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+  }
 }
+/* /RESPONSIVE*/
