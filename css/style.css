@@ -83,7 +83,7 @@ h3 {
   background-color: #fff;
 }
 .logo {
-  max-width: 70%;
+  width: 70%;
   height: auto;
 }
 .header_top a {
@@ -109,7 +109,6 @@ h3 {
 .jumbo {
   margin-top: 80px;
   background-image: url(../img/jumbotron.svg);
-  padding: 20px;
 }
 .title {
   opacity: 1;
@@ -119,7 +118,7 @@ h3 {
 }
 .form {
   background-color: #fff;
-  padding-left:20px;
+  padding-left: 20px;
   padding-right: 20px;
 }
 .form-control:focus {
@@ -175,7 +174,7 @@ small {
 }
 .business li {
   display: inline-block;
-  width: 16%;
+  width: calc(100% / 6) -10px;
 }
 .business li img {
   vertical-align: middle;
@@ -358,6 +357,10 @@ footer {
 
 /*RESPONSIVE*/
 @media screen and (max-width:768px) {
+  .jumbo {
+    padding: 30px;
+    padding-right: 30;
+  }
   .image::before, .image::after {
     display: none;
   }
@@ -384,11 +387,11 @@ footer {
   }
 }
 @media screen and (max-width:992px) {
+  .logo {
+    width: 100%;
+  }
   h1 {
     font-size: 42px;
-  }
-  .jumbo {
-    padding: 30px;
   }
   .circle p {
     margin-bottom: 50px;
